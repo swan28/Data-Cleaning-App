@@ -3,12 +3,11 @@
 """
 Please create a python application that can take datasets and clean the data
 - It should ask for datasets path and name
-- it should check number of duplicates and remove all the duplicates 
-- it should keep a copy of all the duplicates
-- it should check for missing values 
-- if any column that is numeric it should replace nulls with mean else it should drop that rows
-- at end it should save the data as clean data and also return 
-- duplicates records, clean_data 
+- It should check number of duplicates and remove all the duplicates 
+- It should keep a copy of all the duplicates
+- It should check for missing values 
+- If any column that is numeric it should replace nulls with mean else it should drop that rows
+- At the end it should save the data as clean data and also return duplicates records and clean_data 
 """
 
 # Importing dependencies
